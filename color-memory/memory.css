@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.board{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row{
+    display: flex;
+}
+
+.square, .match{
+    width: 100px;
+    height: 100px;
+    outline: auto;
+}
+
+.match{
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translate(-4%, -50%);
+}
+
+.start-button{
+    position: absolute; 
+    top: 50%;
+    left: 4%;
+    transform: translate(-4%, -50%);
+}
+
+.score{
+    position: absolute; 
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
