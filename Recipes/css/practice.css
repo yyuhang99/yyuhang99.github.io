@@ -1,0 +1,186 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    height: 75vh;
+    padding: 20px 250px 0px;
+    background-color: #1f2937;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    font: bold 24px Arial;
+    color: #f9faf8;
+}
+
+.nav-list ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.nav-list a, .train p{
+    font: normal 16px Arial;
+    color: #e5e7eb;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 37%;
+    transform: translate(0%, -37%);
+}
+
+.train{
+    flex: 1;
+}
+
+.train h1{
+    font: bolder 48px Arial;
+    color: #f9faf8;
+}
+
+.train p{
+    padding-right: 125px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 15px Arial;
+    color: #f9faf8;
+    margin-top: 15px;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #3882f6;
+}
+
+.banner h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(100, 100, 100, 0.8);
+    color: #f9faf8;
+    flex: 1;
+    height: 250px;
+}
+
+.information{
+    margin: 60px 0px 150px;
+}
+
+.information h1{
+    text-align: center;
+    font: bolder 36px Arial;
+    color: #1f2937;
+}
+
+.image-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item{
+    padding-top: 40px;
+}
+
+.image-list h3{
+    font: normal 16px Arial;
+    color: #000;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.item{
+    width: 200px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border: solid 5px #3882f6;
+    margin: auto;
+}
+
+.quotebg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    width: 60%;
+}
+
+.quote p{
+    font: italic 36px Arial;
+    color: #1f2937;
+}
+
+.quote h1{
+    text-align: right;
+    padding-top: 10px;
+    font: bolder 25px Arial;
+    color: #1f2937;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    height: 125px;
+    background-color: #3882f6;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+.prompt-text h1{
+    font: bold 24px Arial;
+    color: #f9faf8;
+}
+
+.prompt-text p{
+    font: normal 16px Arial;
+    color: #e5e7eb;
+}
+
+.sign-button h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px #f9faf8;
+    border-radius: 25px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    font: bolder 20px Arial;
+    color: #f9faf8;
+}
+
+footer{
+    background-color: #1f2937;
+    height: 100px;
+    text-align: center;
+}
+
+footer h1{
+    padding-top: 50px;
+    font: bold 20px Arial;
+    color: #f9faf8;
+}

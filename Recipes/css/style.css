@@ -1,0 +1,151 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    height: 100vh;
+    background: linear-gradient(rgba(40, 50, 100, 0.2), rgba(40, 50, 100, 0.3)), url("https://images.squarespace-cdn.com/content/v1/51390587e4b04507fe79d134/1569598097218-B6TWRCJU2UKKWNZFQTUK/Bedford_MA_Kitchen_Remodel_Kitchen_Associates_2.jpg?format=2500w"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 75px;
+    filter: invert(100%);
+}
+
+.logo h1{
+    padding-left: 8px;
+    font: bold 50px Arial;
+    color: #fff;
+}
+
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+}
+
+.nav-link a{
+    font: bold 21px Arial;
+    color: #fff;
+}
+
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: double #d4d4d4 20px;
+    padding: 5% 0px 3%;
+}
+
+.banner h1{
+    font: bold 50px Arial;
+    color: #fff;
+}
+
+.banner p{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font: normal 16px Arial;
+    color: #fff;
+}
+
+.banner a{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font: bold 18px Arial;
+    color: #000;
+}
+
+.recipes{
+    border-top: solid #000 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    height: 100vh;
+}
+
+.recipes h1{
+    text-align: center;
+    font: bold 35px Arial;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 650px;
+    margin: 50px auto;
+}
+
+.slot{
+    position: relative;
+    width: 275px;
+    height: 225px;
+    padding: 10px 15px;
+}
+
+.slot span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.slot h4{
+    font: bold 17px Arial;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.slot1{
+    background-image: url(../img/fried.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slot2{
+    background-image: url(../img/korean.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slot3{
+    background-image: url(../img/bbq.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slot4{
+    background-image: url(../img/sticky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
